@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/circle_background"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/profile_photo"
+        android:src="@drawable/baseline_add_a_photo_24"
+        />
+
+    <TextView
+        android:id="@+id/choose_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_photo"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="#888888"
+        android:layout_marginBottom="32dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/profile_name"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@drawable/profile_textbox"
+        />
+    <TextView
+        android:id="@+id/student_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/student_id"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@drawable/profile_textbox"
+        />
+
+    <Button
+        android:id="@+id/edit_profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_profile"
+        android:fontFamily="@font/poppins_regular"
+        style="@style/CustomButton" />
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:fontFamily="@font/poppins_regular"
+        style="@style/CustomButton" />
+
+</LinearLayout>
