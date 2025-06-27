@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">myInformatika</string>
+    <string name="login">Login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="selamat_datang_di_my_informatika">SELAMAT DATANG DI MY INFORMATIKA</string>
+    <string name="profile_name">ini profile</string>
+    <string name="logout">Logout</string>
+    <string name="greeting">%1$s</string>
+    <string name="tampilkan_password">Tampilkan Password</string>
+    <string name="register">Register</string>
+    <string name="have_account">Anda sudah punya akun ?</string>
+    <string name="login_link">Login Di Sini</string>
+    <string name="register_email">email</string>
+    <string name="profile_student_id">%1$s</string>
+    <string name="student_id">student id</string>
+    <string name="register_link">Daftar Di Sini</string>
+    <string name="profile_photo">profile photo</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_change">Save Change</string>
+    <string name="back">Back</string>
+
+</resources>
