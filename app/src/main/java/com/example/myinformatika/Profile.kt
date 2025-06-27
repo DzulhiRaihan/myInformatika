@@ -25,6 +25,7 @@ class Profile : AppCompatActivity() {
     private lateinit var logoutButton: Button
     private lateinit var choosePhoto: TextView
     private lateinit var editProfileButton: Button
+    private lateinit var articleButton: Button
 
     private var currentUserId: String? = null
 
@@ -54,6 +55,7 @@ class Profile : AppCompatActivity() {
         logoutButton = findViewById(R.id.logout_button)
         choosePhoto = findViewById(R.id.choose_photo)
         editProfileButton = findViewById(R.id.edit_profile_button)
+        articleButton = findViewById(R.id.article_button)
 
         choosePhoto.setOnClickListener {
             pickImageLauncher.launch("image/*")
@@ -65,6 +67,10 @@ class Profile : AppCompatActivity() {
 
         editProfileButton.setOnClickListener {
             editProfile()
+        }
+
+        articleButton.setOnClickListener {
+            startActivity(Intent(this, Article::class.java))
         }
 
         loadUserData()

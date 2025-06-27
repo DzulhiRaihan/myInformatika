@@ -20,5 +20,12 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="save_change">Save Change</string>
     <string name="back">Back</string>
+    <string name="title">Sekilas Informatika</string>
+    <string name="information_text">here are some articles about informatics engineering</string>
+    <string name="article_image">Article Image</string>
+    <string name="article_title">Article title</string>
+    <string name="date">date</string>
+    <string name="Aticle_Button">Go to Article</string>
+    <string name="detail_artikel">Detail Artikel</string>
 
 </resources>

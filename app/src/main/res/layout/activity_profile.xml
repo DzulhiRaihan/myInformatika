@@ -68,6 +68,14 @@
         android:fontFamily="@font/poppins_regular"
         style="@style/CustomButton" />
     <Button
+        android:id="@+id/article_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Aticle_Button"
+        android:fontFamily="@font/poppins_regular"
+        style="@style/CustomButton" />
+
+    <Button
         android:id="@+id/logout_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -63,7 +63,9 @@ dependencies {
     implementation("io.ktor:ktor-client-android:3.1.3")
     implementation("io.github.jan-tennert.supabase:storage-kt:1.3.3")
     implementation("io.github.jan-tennert.supabase:postgrest-kt:1.3.3")
+    implementation ("androidx.recyclerview:recyclerview:1.3.1")
 
+    implementation ("com.google.firebase:firebase-database-ktx:21.0.0")
 
 
     implementation("com.github.bumptech.glide:glide:4.16.0")

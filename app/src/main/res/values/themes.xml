@@ -18,6 +18,14 @@
         <item name="android:textColor">#FFFFFF</item> <!-- Warna teks -->
         <item name="cornerRadius">10dp</item> <!-- Radius sudut -->
     </style>
+
+    <style name="CustomToolBar" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">#FFFF</item> <!-- Warna latar -->
+        <item name="android:textColor">@color/black</item> <!-- Warna teks -->
+        <item name="cornerRadius">10dp</item> <!-- Radius sudut -->
+    </style>
+
+
     <style name="CustomText" parent="TextAppearance.Material3.BodyMedium">
         <item name="fontFamily">@font/poppins_regular</item>
     </style>
